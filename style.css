@@ -197,3 +197,31 @@ footer {
 .footer-text {
 	color: #fff;
 }
+
+@media screen and (max-width:425px) {
+	header, main, .main-visual-content, .blog, .sidebar {
+		width: 100%;
+	}
+	.blog, .blog-text, .blog-image, .sidebar {
+		float: none;
+	}
+	.blog {
+		text-align: center;
+	}
+	.instagram-box {
+		width: 48%;
+	}
+	.instagram-box:nth-child(odd) {
+	margin-right: 4%;
+    }
+	.pagination {
+		padding-bottom: 50px;
+	}
+	.popular-text, .categories-text {
+		text-align: center;
+	}
+	.sidebar-contents {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
